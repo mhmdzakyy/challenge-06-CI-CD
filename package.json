@@ -1,11 +1,12 @@
 {
-  "name": "challenge-05",
+  "name": "challenge-06",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest --detectOpenHandles --runInBand --verbose",
-    "start": "node server.js"
+    "start": "node server.js",
+    "heroku-postbuild": "npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,7 @@
     "moment": "^2.29.3",
     "pg": "^8.7.3",
     "sequelize": "^6.19.0",
+    "serve": "^13.0.2",
     "supertest": "^6.2.3",
     "swagger-ui-express": "^4.3.0"
   }
