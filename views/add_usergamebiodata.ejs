@@ -1,0 +1,43 @@
+<%- include('layout/header') %>
+
+<div class="container">
+  <div class="row my-4">
+    <div class="col-lg-12">
+      <h1>Add User Game Biodata Page</h1>
+      <div class="card shadow">
+        <div class="card-header bg-primary">
+          <h3 class="text-white">Add User Game Biodata</h3>
+        </div>
+        <div class="card-body p-4">
+          <form action="/view/create-user-games-biodata" method="post" id="add-form">
+            <div class="mb-3">
+              <label for="nama_user">Nama User</label>
+              <input type="text" class="form-control" id="nama_user" name="nama_user" placeholder="Nama User" required />
+            </div>
+            <div class="mb-3">
+              <label for="jenis_kelamin">Jenis Kelamin</label>
+              <input type="text" class="form-control" id="jenis_kelamin" name="jenis_kelamin" placeholder="Jenis Kelamin" required />
+            </div>
+            <div class="mb-3">
+              <label for="umur">Umur</label>
+              <input type="text" class="form-control" id="umur" name="umur" placeholder="Umur" required />
+            </div>
+            <div class="mb-3">
+              <label for="email">Email</label>
+              <input type="text" class="form-control" id="email" name="email" placeholder="Email" required />
+            </div>
+            <div class="mb-3">
+              <label for="id_user">ID User</label>
+              <input type="text" class="form-control" id="id_user" name="id_user" placeholder="ID User" required />
+            </div>
+            <div class="mb-3 d-grid">
+              <button type="submit" name="submit" class="btn btn-primary btn-lg">Add User Biodata</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('layout/footer') %>

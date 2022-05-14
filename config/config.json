@@ -1,0 +1,31 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "admin123",
+    "database": "db_challenge5",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "admin123",
+    "database": "db_challenge5",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "url": "postgres://lfnjvaeackjfpi:1146ffc8a6bb2fd0c1449a1b15584f8ffecb68329e188234cf57cd698145bd0c@ec2-44-196-223-128.compute-1.amazonaws.com:5432/db96so6ocl0e0n",
+    "username": "lfnjvaeackjfpi",
+    "password": "1146ffc8a6bb2fd0c1449a1b15584f8ffecb68329e188234cf57cd698145bd0c",
+    "database": "db96so6ocl0e0n",
+    "host": "ec2-44-196-223-128.compute-1.amazonaws.com",
+    "port": 5432,
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
